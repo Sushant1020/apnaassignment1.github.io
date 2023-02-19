@@ -1,0 +1,463 @@
+#logo {
+  width: 64px;
+  height: 64px;
+  margin-left: 200px;
+  margin-right: 350px;
+}
+#nav {
+  font-family: antialiased;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+@media (min-width: 360px) and (max-width: 500px) {
+  .box img {
+    width: 100%;
+  }
+  #logo {
+    margin-left: 1.25em;
+    margin-right: 0.625em;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #nav {
+    display: none;
+  }
+  #brochure {
+    margin-left: 1.25em;
+  }
+
+  #overview {
+    align-self: center;
+  }
+  #param {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0px;
+  }
+  #param #box1 col-6 {
+    width: 100%;
+  }
+  #param #para {
+    margin-left: 0px;
+  }
+
+  #param #image2 {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  #row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #row2 #config {
+    margin-left: 0px;
+  }
+  #row3 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #row3 .divs {
+    align-self: center;
+    width: 16.875em;
+    padding: 0px;
+  }
+  #row3 .plus {
+    margin-left: 0px;
+  }
+  #gallery .carousel-inner {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    flex-wrap: wrap;
+    height: 18.75em;
+  }
+  #row3 .row {
+    flex-direction: none;
+    max-width: none;
+  }
+  .i2 {
+    display: none;
+  }
+  .i3 {
+    display: none;
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #about .para #para3 {
+    width: 22.5em;
+    margin-left: 0.625em;
+  }
+  #about .para #aboutimg {
+    width: 22.5em;
+    margin-left: 0.625em;
+  }
+  #enquiry {
+    display: flex;
+    flex-direction: none;
+    align-items: center;
+    justify-content: center;
+    width: 22.5em;
+    text-align: center;
+    margin-bottom: 2.5em;
+  }
+  #enquiryfill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0.625em;
+  }
+  #pgdown {
+    margin-top: 6.25em;
+    margin-bottom: 0.625em;
+  }
+  #enquiry .input-group {
+    width: 18.75em;
+    margin-left: 1.25em;
+  }
+}
+.div {
+  background-color: #580719;
+  font-family: antialiased;
+  font-size: 20px;
+  border-radius: 20px;
+}
+#brochure {
+  color: white;
+}
+
+#navbar {
+  padding: auto;
+  height: 70px;
+  background-color: white;
+}
+.box {
+  width: 100%;
+  height: 700px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+#overview {
+  font-family: antialiased;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  color: #580719;
+}
+.headline {
+  height: 3px;
+  width: 70px;
+  background: #b0924b;
+  margin: 0 auto 0px;
+}
+#head {
+  background-color: transparent;
+}
+.box1 {
+  width: 100%;
+  height: 500px;
+}
+#image2 {
+  width: 70%;
+  height: 70%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#para {
+  height: 320px;
+  width: 320px;
+  font-size: 20px;
+  margin-left: 320px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+body {
+  background-image: url("./1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.row {
+  background-color: white;
+}
+#row2 {
+  background-color: rgba(8, 8, 8, 0.5);
+}
+#h1 {
+  font-family: antialiased;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#config {
+  margin-left: 608px;
+  color: black;
+  font-family: antialiased;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 150px;
+  height: 60px;
+  padding-top: 10px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: white;
+}
+#floor {
+  margin-left: 10px;
+  color: black;
+  font-family: antialiased;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: auto;
+  width: 150px;
+  height: 60px;
+  padding-top: 10px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgba(210, 207, 207, 0.5);
+}
+#head1 {
+  background-color: transparent;
+}
+.headline1 {
+  height: 3px;
+  width: 70px;
+  background: white;
+  color: white;
+  margin: 0 auto 0px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.headline2 {
+  height: 3px;
+  width: 70px;
+  background: black;
+  margin: 0 auto 0px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+#image1 {
+  width: 1200px;
+}
+#outer1 {
+  width: 500px;
+  height: 300px;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: transparent;
+}
+#innercard {
+  width: 500px;
+  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+#card1 {
+  text-align: center;
+  justify-content: center;
+  width: 450px;
+  height: 250px;
+  background-color: black;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+#check {
+  width: 120px;
+  align-self: center;
+}
+#row3 {
+  background-color: #580719;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+.para1 {
+  color: white;
+  justify-self: center;
+  font-family: antialiased;
+  width: 1000px;
+}
+.box2 {
+  margin-top: 0px;
+  width: 250px;
+  height: 400px;
+}
+.box2 p {
+  color: white;
+}
+.img1 {
+  width: 80%;
+  height: 80%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.box3 {
+  display: flex;
+}
+.box3 ul {
+  color: white;
+  margin-bottom: 100px;
+}
+#drop {
+  color: white;
+  font-family: antialiased;
+}
+
+.divs {
+  background-color: burlywood;
+  border: 2px solid white;
+  width: 500px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.plus {
+  border: 1px solid rgb(137, 80, 5);
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+#gallery {
+  color: white;
+  background-color: #580719;
+  margin-bottom: 30px;
+}
+#carousel {
+  height: 500px;
+  width: 1200px;
+}
+#photo {
+  width: 300px;
+  height: 300px;
+}
+#row4 {
+  background-color: white;
+}
+#row4 h1 {
+  color: black;
+  font-family: antialiased;
+  text-align: center;
+}
+#row4 .head {
+  margin-left: 700px;
+  margin-bottom: 40px;
+}
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: top;
+  align-items: center;
+  padding-bottom: 40px;
+}
+#about #para3 {
+  margin-left: 300px;
+  width: 600px;
+}
+#about #aboutimg {
+  margin-left: 150px;
+  width: 300px;
+  height: 300px;
+}
+#about {
+  background-color: white;
+}
+#enquiry {
+  background-color: grey;
+  height: 500px;
+  color: white;
+  font-family: antialiased;
+}
+
+#fill {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#equiryfill {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+}
+#pgdown {
+  color: black;
+  text-align: center;
+  font-family: antialiased;
+}
+#button {
+  color: white;
+}
+#footer {
+  background-color: rgb(69, 67, 67);
+  color: white;
+  text-align: center;
+  font-family: antialiased;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#footer h10 {
+  width: 1200px;
+}
+#footerlast {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
